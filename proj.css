@@ -1,0 +1,19 @@
+ul li{
+    display: inline;
+    color: black;
+    background-color: white;
+
+}
+ul li{
+    text-align: center;
+    padding: 14px 17px;
+    margin-top:40px;
+
+}
+.navbar{
+
+}
+.navbar:hover{
+    color: blue;
+    overflow: hidden;
+}
