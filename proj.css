@@ -1,19 +1,15 @@
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    cursor: pointer;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
 ul li{
     display: inline;
-    color: black;
-    background-color: white;
-
-}
-ul li{
-    text-align: center;
     padding: 14px 17px;
-    margin-top:40px;
-
 }
-.navbar{
-
-}
-.navbar:hover{
+ul li:hover{
     color: blue;
-    overflow: hidden;
 }
