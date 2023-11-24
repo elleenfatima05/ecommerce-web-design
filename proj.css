@@ -115,3 +115,71 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 20px ;
 }
+.tag img{
+  width: 150px;
+  height: 150px;
+}
+.tag-container{
+display: flex;
+justify-content: space-around;
+gap: 40px;
+}
+.tag h2{
+  font-size: 40px;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tag h2:hover{
+  color: blue;
+  cursor: pointer;
+}
+.tag p{
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+.tag p:hover{
+  color: rgb(49, 56, 56);
+  cursor: pointer;
+  
+}
+.promotions{
+  display: flex;
+  justify-content: space-around;
+}
+.promotion{
+  background-image: url(images.jpeg);
+  width: 40%;
+  height: 400px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100%;
+  border-radius: 20px;
+  opacity: 0.80;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2);
+}
+.tag{
+text-align: center;
+}
+.promotion2{
+  background-image: url(3-ad-butterfly-n-51-heartbeat-necklace-brado-jewellery-original-imaggscfrgndyjpt.webp);
+  width: 40%;
+  height: 400px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100%;
+  border-radius: 20px;
+  opacity: 0.80;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2)
+
+}
