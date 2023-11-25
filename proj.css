@@ -183,3 +183,27 @@ text-align: center;
   text-shadow: 0px 0px 10px 10px rgba(0,0,0,0.2)
 
 }
+.catagory{
+  display: flex;
+  justify-content: space-around;
+}
+.c1{
+  height: 500px;
+  width: 15%;
+object-fit: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+transition-property: width,height,transform,background,font-size,opacity;
+transition-duration: 1s,1s,1s,1s,1s,1s;
+}
+.c1 img{
+  border-radius: 8px;
+}
+.c1 img:hover{
+  border-radius:0px;
+  height: 120%;
+  width: 120%;
+
+}
